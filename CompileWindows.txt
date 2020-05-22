@@ -1,4 +1,4 @@
-Start with:
+You need Visual studio with c/c++ compiler
 
 libogg:
 Run the .sln file in vs2010 folder for dynamin library, choose release, x64, and build

@@ -1,11 +1,12 @@
 #!/bin/bash
-sudo apt-get install git autoconf automake libtool libssl-dev gcc make mingw-w64  gcc-mingw-w64-x86-64 g++-mingw-w64-x86-64 
+sudo apt-get install git autoconf automake libtool libssl-dev gcc make
 
 current=$PWD
 outputFolder="$current/lib/linux/x64"
 mkdir -p $outputFolder
 
 echo "Building libogg library"
+cd $current
 cd src/libogg
 ./autogen.sh
 ./configure --disable-doc --disable-examples
