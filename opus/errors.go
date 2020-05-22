@@ -9,11 +9,10 @@ import (
 )
 
 /*
-#cgo linux CFLAGS: -I"src/opus/include" -I"src/opus-file/include" -I"src/libogg/include"
+#cgo CFLAGS: -I"${SRCDIR}/src/opus/include" -I"${SRCDIR}/src/opus-file/include" -I"${SRCDIR}/src/libogg/include"
 #cgo linux LDFLAGS: -L${SRCDIR}/lib/linux/x64/ -lopus -logg -lm
-#include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
+#cgo windows LDFLAGS: -L${SRCDIR}/lib/windows/x64/ -lopus -logg -lm
+
 #include <opus.h>
 #include <opusfile.h>
 */

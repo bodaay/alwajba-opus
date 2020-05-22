@@ -1,4 +1,5 @@
 You need Visual studio with c/c++ compiler
+WE ONLY NEED LIB FILES, not DLL, we will always use STATIC binding, so the generated executeable will have the opus built in, without any extra libraries
 
 libogg:
 Run the .sln file in vs2010 folder for dynamin library, choose release, x64, and build
