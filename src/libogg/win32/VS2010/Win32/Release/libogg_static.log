@@ -1,0 +1,7 @@
+﻿  bitwise.c
+  framing.c
+C:\Users\Khalefa\alwajba-opus\src\libogg\src\framing.c(733,24): warning C4456:  declaration of 'page' hides previous local declaration
+C:\Users\Khalefa\alwajba-opus\src\libogg\src\framing.c(678,18): message :  see declaration of 'page'
+C:\Users\Khalefa\alwajba-opus\src\libogg\src\framing.c(734,15): warning C4456:  declaration of 'bytes' hides previous local declaration
+C:\Users\Khalefa\alwajba-opus\src\libogg\src\framing.c(680,8): message :  see declaration of 'bytes'
+  libogg_static.vcxproj -> C:\Users\Khalefa\alwajba-opus\src\libogg\win32\VS2010\Win32\Release\libogg_static.lib

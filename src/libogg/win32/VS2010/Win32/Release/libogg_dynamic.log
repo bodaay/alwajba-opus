@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Win32\Release\) contains files shared from another project (libogg_static.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  bitwise.c
+  framing.c
+C:\Users\Khalefa\alwajba-opus\src\libogg\src\framing.c(733,24): warning C4456:  declaration of 'page' hides previous local declaration
+C:\Users\Khalefa\alwajba-opus\src\libogg\src\framing.c(678,18): message :  see declaration of 'page'
+C:\Users\Khalefa\alwajba-opus\src\libogg\src\framing.c(734,15): warning C4456:  declaration of 'bytes' hides previous local declaration
+C:\Users\Khalefa\alwajba-opus\src\libogg\src\framing.c(680,8): message :  see declaration of 'bytes'
+     Creating library C:\Users\Khalefa\alwajba-opus\src\libogg\win32\VS2010\Win32\Release\libogg.lib and object C:\Users\Khalefa\alwajba-opus\src\libogg\win32\VS2010\Win32\Release\libogg.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 72 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  libogg_dynamic.vcxproj -> C:\Users\Khalefa\alwajba-opus\src\libogg\win32\VS2010\Win32\Release\libogg.dll

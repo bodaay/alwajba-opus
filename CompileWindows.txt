@@ -1,0 +1,18 @@
+Start with:
+
+libogg:
+Run the .sln file in vs2010 folder for dynamin library, choose release, x64, and build
+
+opus:
+Run the .sln file in vs2015 folder for dynamin library, choose releasedll, x64, and build
+
+opus-file:
+this one a bit shit, you have to right click on opus-file project, then properties, c/c++, first one, add aditional include libraries, you have to include libogg folder, I have attached screen shot to help
+make sure you select Release-NoHTTP, so we don't require openssl shit
+You need to compile this project two times, I don't know why, but one change project type to static library, another dynamic library
+if you choose dynamic library, you need to drag the two .libs files generated from the previous projects into the project, opus.lib libogg.lib, they are required for linker
+
+libopusenc:
+Run the .sln file in vs2015 folder for dynamin library, choose releasedll, x64, and build
+
+of course, with every project, copy the dll and lib file to out lib folder
