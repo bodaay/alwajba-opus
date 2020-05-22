@@ -10,8 +10,8 @@ import (
 
 /*
 #cgo CFLAGS: -I"${SRCDIR}/src/opus/include" -I"${SRCDIR}/src/opus-file/include" -I"${SRCDIR}/src/libogg/include"
-#cgo linux LDFLAGS: -L${SRCDIR}/lib/linux/x64/ -lopus -logg -lm
-#cgo windows LDFLAGS: -L${SRCDIR}/lib/windows/x64/ -lopus -logg -lm
+#cgo linux LDFLAGS: -L${SRCDIR}/lib/linux/x64/ -lopus -lopusenc -lopusfile -logg -lm
+#cgo windows LDFLAGS: -L${SRCDIR}/lib/windows/x64/ -lopus -llibogg -lm
 
 #include <opus.h>
 #include <opusfile.h>
