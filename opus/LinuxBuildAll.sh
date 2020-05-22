@@ -2,7 +2,7 @@
 sudo apt-get install git autoconf automake libtool libssl-dev gcc make
 
 current=$PWD
-outputFolder="$current/lib/linux/x64"
+outputFolder="../lib/linux/x64"
 mkdir -p $outputFolder
 
 echo "Building libogg library"
